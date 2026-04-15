@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: left;
+    color: rgb(0, 255, 187);
+    size: 10px;
+       
+}
+#Sing_up {
+    background-color: transparent;
+    color: rgb(211, 244, 21);
+    border: 1px solid rgb(211, 244, 21);
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 7px;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
