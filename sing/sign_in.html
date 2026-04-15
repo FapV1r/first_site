@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+    <link rel="stylesheet" href="sign.css">
 </head>
 <body>
-    <form>
-        <label for="">
-            <input >
-        </label>
-    </form>
+
+    <div class="main-container">
+        <div class="side-image">
+            <img src="https://www.artcopenhagen.com/cdn/shop/products/Blueplay-original-painting-black-frame_1024x1024.jpg?v=1643627181" alt="picture">
+        </div>
+        <div class="content">
+            <p><b>Sign In</b></p>
+            <form>
+                <label for="user_email"> Email: </label>
+                    <input class="input" id="user_email" type="email" placeholder="your email"><br><br>
+                <label for="user_password"> Password: </label>
+                    <input class="input" id="user_password" type="password" placeholder="your password"
+                     minlength="8" maxlength="15"><br><br>
+                <input class="button" type="submit" value="Sign In">
+            </form>
+        </div>
+        <div class="side-image">
+            <img src="https://www.artcopenhagen.com/cdn/shop/products/Blueplay-original-painting-black-frame_1024x1024.jpg?v=1643627181" alt="picture">
+    </div>
 </body>
 </html>
