@@ -1,16 +1,29 @@
-body {
+body, html {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100;
 }
-h1 {
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(249, 228, 202);
+}
+.name-site {
     text-align: left;
-    color: rgb(0, 255, 187);
-    size: 10px;
-       
+    color: rgb(17, 36, 85);
+    size: 10px;   
+}
+.button-group {
+    display: flex;
+    margin-left: 10px;   
 }
 #Sign_in {
     background-color: transparent;
-    color: rgb(21, 199, 244);
-    border: 1px solid rgb(21, 199, 244);
+    color: rgb(17, 36, 85);
+    border: 2px solid rgb(17, 36, 85);
     border-radius: 20px;
     cursor: pointer;
     box-sizing: border-box;
@@ -19,22 +32,44 @@ h1 {
 }
 #Sign_up {
     background-color: transparent;
-    color: rgb(211, 244, 21);
-    border: 1px solid rgb(211, 244, 21);
+    color: rgb(17, 36, 85);
+    border: 2px solid rgb(17, 36, 85);
     border-radius: 20px;
     cursor: pointer;
     box-sizing: border-box;
     padding: 7px;
 }
-.up {
+.block {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
+    align-items: flex-start;
 
-.button-group {
-    display: flex;
+    flex: 1;
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(249, 228, 202);
+    background-color: rgb(17, 36, 85);
+}
+.content {
+    padding: 20px;
+    overflow: hidden;
+}
+#mahachkala {
+  float: right !important;
+  width: 500px !important;   /* Ширина прямоугольника */
+  height: 250px !important;  /* Высота прямоугольника */
+  object-fit: cover !important; /* Чтобы картинка не сплющилась, а обрезалась по краям */
+  margin-left: 20px !important;
+  margin-bottom: 10px !important;
+}
+.sity {
+    border-right: 2px solid rgb(249, 228, 202);
+    padding: 0 10px 30px 30px;
     margin-left: 10px;
-    
+}
+.name {
+    margin-left: 10px;
+}
+.text {
+    margin-left: 20px;
+    margin-right: 30px;
 }
